@@ -1,38 +1,62 @@
+@font-face {
+  font-family: 'Black-f';
+  src: url('./fonts/fontfont_ff.mark.pro.black-webfont.woff2') format('woff2'),
+      url('./fonts/fontfont_ff.mark.pro.black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'med-f';
+  src: url('./fonts/fontfont_ff.mark.pro.medium-webfont.woff2') format('woff2'),
+          url('./fonts/fontfont_ff.mark.pro.medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'bold-f';
+  src: url('./fonts/fontfont_ff.mark.pro.bold-webfont.woff2') format('woff2'),
+          url('./fonts/fontfont_ff.mark.pro.bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'heavy-f';
+  src: url('./fonts/fontfont_ff.mark.pro.heavy-webfont.woff2') format('woff2'),
+          url('./fonts/fontfont_ff.mark.pro.heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mark_probold';
+  src: url('./fonts/mark_pro_bold-webfont.woff2') format('woff2'),
+          url('./fonts/mark_pro_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'reg-f';
+  src: url('./fonts/fontfont_ff.mark.pro-webfont.woff2') format('woff2'),
+       url('./fonts/fontfont_ff.mark.pro-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 .App {
   text-align: center;
+  background-image: url("./images/bg-image.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
